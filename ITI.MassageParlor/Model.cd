@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="ITI.MassageParlor.Client">
+    <Position X="6" Y="1.75" Width="2" />
+    <Members>
+      <Method Name="Client" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITI.MassageParlor.ClientCollection">
+    <Position X="3.5" Y="1" Width="2.25" />
+    <Members>
+      <Method Name="ClientCollection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAQAAABAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ClientCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITI.MassageParlor.MassageCompany">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <Members>
+      <Field Name="_clients" Hidden="true" />
+      <Field Name="_masseurs" Hidden="true" />
+      <Field Name="_planning" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAACAAAAAAIAAAAACAAAAACAAAAAIAAAAgAAAAAAAA=</HashCode>
+      <FileName>MassageCompany.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Clients" />
+      <Property Name="Masseurs" />
+      <Property Name="Planning" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ITI.MassageParlor.Masseur">
+    <Position X="8.75" Y="3" Width="2.5" />
+    <Members>
+      <Method Name="Masseur" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Masseur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITI.MassageParlor.MasseurCollection">
+    <Position X="8.25" Y="0.75" Width="2.5" />
+    <Members>
+      <Field Name="_company" Hidden="true" />
+      <Method Name="MasseurCollection" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAEAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAABAACAAA=</HashCode>
+      <FileName>MasseurCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITI.MassageParlor.Planning">
+    <Position X="0.5" Y="3.5" Width="3" />
+    <Members>
+      <Field Name="_company" Hidden="true" />
+      <Method Name="Planning" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAACgAAAAAAAA=</HashCode>
+      <FileName>Planning.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ITI.MassageParlor.Appointment">
+    <Position X="4" Y="3.75" Width="2" />
+    <Members>
+      <Field Name="_start" Hidden="true" />
+      <Field Name="_stop" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACACgAAEAAAEAAAAAAAAAAAAIAAAAAAAAAQ=</HashCode>
+      <FileName>Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
